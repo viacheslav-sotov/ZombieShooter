@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\slava\\source\\repos\\Zombie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|c:\\users\\slava\\source\\repos\\zombie\\assets\\scripts\\hider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|C:\\Users\\slava\\source\\repos\\Zombie\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|C:\\Users\\slava\\source\\repos\\Zombie\\assets\\scripts\\shootingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shootingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|C:\\Users\\slava\\source\\repos\\Zombie\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|C:\\Users\\slava\\source\\repos\\Zombie\\assets\\scripts\\bulletpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|C:\\Users\\slava\\source\\repos\\Zombie\\assets\\scripts\\zombie\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|C:\\Users\\slava\\source\\repos\\Zombie\\assets\\scripts\\zombie\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|C:\\Users\\slava\\source\\repos\\Zombie\\assets\\scripts\\zombie\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zombie\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "hider.cs",
+              "DocumentMoniker": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\hider.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\hider.cs",
+              "ToolTip": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\hider.cs",
+              "RelativeToolTip": "Assets\\Scripts\\hider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T23:20:02.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShootingStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\ShootingStrategy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShootingStrategy.cs",
+              "ToolTip": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\ShootingStrategy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShootingStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T22:53:02.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BulletPool.cs",
+              "DocumentMoniker": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\BulletPool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletPool.cs",
+              "ToolTip": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\BulletPool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletPool.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T22:21:05.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwDUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T22:06:20.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Zombie.cs",
+              "DocumentMoniker": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\Zombie\\Zombie.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\Zombie.cs",
+              "ToolTip": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\Zombie\\Zombie.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Zombie\\Zombie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:00:22.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
+              "ToolTip": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:57:06.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\Zombie\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\Zombie\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Zombie\\EnemySpawner.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAewDQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:56:21.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ObjectPool.cs",
+              "DocumentMoniker": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\Zombie\\ObjectPool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Zombie\\ObjectPool.cs",
+              "ToolTip": "C:\\Users\\slava\\source\\repos\\Zombie\\Assets\\Scripts\\Zombie\\ObjectPool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Zombie\\ObjectPool.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:55:34.661Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

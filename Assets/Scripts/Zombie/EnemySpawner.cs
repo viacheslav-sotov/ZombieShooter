@@ -1,0 +1,78 @@
+//using UnityEngine;
+
+//public class EnemySpawner : MonoBehaviour
+//{
+//    [SerializeField] private ObjectPool objectPool;
+//    [SerializeField] private Transform spawnPoint;
+//    [SerializeField] private Transform[] spawnPoints;
+//    [SerializeField] private float spawnInterval = 2f;
+//    private Player _player; // Reference to the player
+
+
+//    void Start()
+//    {
+//        InvokeRepeating(nameof(SpawnEnemy), 0f, spawnInterval);
+//    }
+
+//    void SpawnEnemy()
+//    {
+
+//        GameObject enemy = objectPool.GetObject();
+//        enemy.transform.position = spawnPoints[Random.Range(0, spawnPoints.Length)].position;
+//    }
+//    void Update()
+//    {
+//        if (Input.GetKeyDown(KeyCode.Space)) // Example: Spawn when pressing Space
+//        {
+//            GameObject enemy = objectPool.GetObject();
+//            enemy.transform.position = spawnPoint.position;
+//        }
+//    }
+//}
+
+
+using UnityEngine;
+
+public class EnemySpawner : MonoBehaviour
+{
+    [SerializeField] private ObjectPool objectPool;
+    [SerializeField] private Transform[] spawnPoints;
+    [SerializeField] private float spawnInterval = 2f;
+
+    void Start()
+    {
+        InvokeRepeating(nameof(SpawnEnemy), 0f, spawnInterval);
+    }
+
+    void SpawnEnemy()
+    {
+        Transform spawnLocation = spawnPoints[Random.Range(0, spawnPoints.Length)];
+
+        // Randomly choose between SlowZombie and FastZombie
+        string zombieType = Random.value > 0.5f ? "SlowZombie" : "FastZombie";
+        SpawnZombie(zombieType, spawnLocation.position);
+    }
+
+    private void SpawnZombie(string type, Vector3 position)
+    {
+        GameObject enemy = objectPool.GetObject(type);
+
+        if (enemy != null)
+        {
+            enemy.transform.position = position;
+            enemy.SetActive(true);
+
+            // Set the correct behavior
+            Zombie zombieComponent = enemy.GetComponent<Zombie>();
+
+            if (type == "SlowZombie")
+                zombieComponent.SetBehavior(new SlowZombieBehavior(), 0.8f, 10);
+            else if (type == "FastZombie")
+                zombieComponent.SetBehavior(new FastZombieBehavior(), 1.5f, 20);
+        }
+        else
+        {
+            Debug.LogWarning($"No available objects in pool for: {type}");
+        }
+    }
+}
