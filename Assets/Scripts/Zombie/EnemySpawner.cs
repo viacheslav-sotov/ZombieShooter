@@ -1,3 +1,4 @@
+//by Richard
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
@@ -15,8 +16,6 @@ public class EnemySpawner : MonoBehaviour
     {
         Transform spawnLocation = spawnPoints[Random.Range(0, spawnPoints.Length)];
 
-        // Randomly choose between SlowZombie and FastZombie
-        // string zombieType = Random.value > 0.5f ? "SlowZombie" : "FastZombie";
         string[] zombieTypes = { "SlowZombie", "FastZombie", "AdaptedZombie" };
         string zombieType = zombieTypes[Random.Range(0, zombieTypes.Length)];
 

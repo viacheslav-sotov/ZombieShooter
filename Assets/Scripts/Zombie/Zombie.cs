@@ -1,10 +1,9 @@
-
+//by Richard
 using UnityEngine;
 
 public class Zombie : MonoBehaviour
 {
     private Rigidbody2D _rigidbody;
-    //private Player _player;
     private float _speed;
     private ObjectPool objectPool;
     private IZombieBehavior _zombieBehavior;
@@ -15,7 +14,7 @@ public class Zombie : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        //_player = FindObjectOfType<Player>();
+
         _player = FindObjectOfType<Player>().transform;
         objectPool = FindObjectOfType<ObjectPool>();
     }

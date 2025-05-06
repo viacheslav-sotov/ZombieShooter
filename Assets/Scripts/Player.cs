@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Player : MonoBehaviour
 {
@@ -20,6 +22,8 @@ public class Player : MonoBehaviour
     
     private int maxHealth = 100;
     private int currentHealth;
+
+    public TMP_Text deathMessage;
 
     
     private List<IObserver> observers = new List<IObserver>();
@@ -110,19 +114,28 @@ public class Player : MonoBehaviour
 
     public void Die()
     {
-        Destroy(gameObject);
-        FindObjectOfType<TMPro.TMP_Text>().enabled = true;
-    }
+        if (deathMessage != null)
+            deathMessage.enabled = true;
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.collider.CompareTag("Wall"))
-            rb.velocity = Vector2.zero;
+        
+        GetComponent<Player>().enabled = false;
+
+        
+        rb.velocity = Vector2.zero;
+
+        
+        StartCoroutine(BackToMenu());
     }
 
     public void SetMovementStrategy(IPlayerMovement strategy)
     {
         movementStrategy = strategy;
     }
+
+    private IEnumerator BackToMenu()
+{
+    yield return new WaitForSeconds(1f); 
+    SceneManager.LoadScene("StartScreen"); 
+}
 
 }

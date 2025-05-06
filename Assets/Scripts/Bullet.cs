@@ -1,4 +1,4 @@
-﻿//// by Viacheslav Sotov
+﻿// by Viacheslav Sotov
 using UnityEngine;
 using System.Collections;
 

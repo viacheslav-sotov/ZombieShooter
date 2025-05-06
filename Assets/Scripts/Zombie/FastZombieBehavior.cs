@@ -1,3 +1,4 @@
+//by Richard
 using UnityEngine;
 
 public class FastZombieBehavior : IZombieBehavior

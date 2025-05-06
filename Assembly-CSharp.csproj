@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Zombie\Zombie.cs" />
     <Compile Include="Assets\Scripts\Command Scripts\Commands.cs" />
     <Compile Include="Assets\Scripts\Zombie\SlowZombieBehavior.cs" />
+    <Compile Include="Assets\Scripts\StartMenuController.cs" />
     <Compile Include="Assets\Scripts\BulletPool.cs" />
     <Compile Include="Assets\Scripts\Command Scripts\MoveRightCommand.cs" />
     <Compile Include="Assets\Scripts\Zombie\FastZombieBehavior.cs" />
