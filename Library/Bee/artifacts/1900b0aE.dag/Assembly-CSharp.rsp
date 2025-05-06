@@ -390,6 +390,7 @@
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/ShootingStrategy.cs"
 "Assets/Scripts/SpeedBoostDecorator.cs"
+"Assets/Scripts/StartMenuController.cs"
 "Assets/Scripts/Zombie/AdaptedZombieBehavior.cs"
 "Assets/Scripts/Zombie/EnemySpawner.cs"
 "Assets/Scripts/Zombie/FastZombieBehavior.cs"
