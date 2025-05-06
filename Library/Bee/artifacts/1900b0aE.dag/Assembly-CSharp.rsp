@@ -375,6 +375,7 @@
 "Assets/Scripts/BasePlayerMovement.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/BulletPool.cs"
+"Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/Command Scripts/Commands.cs"
 "Assets/Scripts/Command Scripts/ICommand.cs"
 "Assets/Scripts/Command Scripts/MoveDownCommand.cs"
@@ -389,12 +390,14 @@
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/ShootingStrategy.cs"
 "Assets/Scripts/SpeedBoostDecorator.cs"
+"Assets/Scripts/Zombie/AdaptedZombieBehavior.cs"
 "Assets/Scripts/Zombie/EnemySpawner.cs"
 "Assets/Scripts/Zombie/FastZombieBehavior.cs"
 "Assets/Scripts/Zombie/IZombieBehavior.cs"
 "Assets/Scripts/Zombie/ObjectPool.cs"
 "Assets/Scripts/Zombie/SlowZombieBehavior.cs"
 "Assets/Scripts/Zombie/Zombie.cs"
+"Assets/Scripts/Zombie/ZombieAdapter.cs"
 "Assets/Scripts/Zombie/ZombieFactory.cs"
 -langversion:9.0
 /deterministic

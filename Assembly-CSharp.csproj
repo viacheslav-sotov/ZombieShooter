@@ -59,6 +59,7 @@
     <UnityVersion>2022.3.38f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\user\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity 2022.3.38f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity 2022.3.38f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\BasePlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Command Scripts\MoveUpCommand.cs" />
     <Compile Include="Assets\Scripts\Zombie\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Command Scripts\ICommand.cs" />
@@ -83,9 +85,11 @@
     <Compile Include="Assets\Scripts\IPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Command Scripts\MoveLeftCommand.cs" />
     <Compile Include="Assets\Scripts\ShootingStrategy.cs" />
+    <Compile Include="Assets\Scripts\Zombie\ZombieAdapter.cs" />
     <Compile Include="Assets\Scripts\Observer.cs" />
     <Compile Include="Assets\Scripts\Command Scripts\MoveDownCommand.cs" />
     <Compile Include="Assets\Scripts\GameReseter.cs" />
+    <Compile Include="Assets\Scripts\Zombie\AdaptedZombieBehavior.cs" />
     <Compile Include="Assets\Scripts\MouseUtils.cs" />
   </ItemGroup>
   <ItemGroup>
